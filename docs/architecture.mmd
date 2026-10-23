@@ -1,0 +1,9 @@
+flowchart TD
+ C[Customer Android App] -->|HTTPS REST API| API[Express API]
+ A[Admin Web Console] -->|HTTPS REST API| API
+ API --> DB[(MongoDB)]
+ API --> CSV[CSV Reports / Excel]
+ API -. optional verified integration .-> PAY[Payment Gateway]
+ API -. configured SMTP .-> MAIL[Email Provider]
+ API -. configured sender .-> PUSH[Push Notifications]
+ API -. maps links/SDK .-> MAPS[Maps]
