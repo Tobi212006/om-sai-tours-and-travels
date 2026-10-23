@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "Om Sai Tours and Travels",
+    "slug": "om-sai-tours-and-travels",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "android": { "package": "com.omsaitoursandtravels.app" },
+    "plugins": ["expo-secure-store"]
+  }
+}
